@@ -184,7 +184,7 @@ repository：https://DESKTOP-9RHGTMC:8443/svn/01_demo/
 
 ### 场景4（克隆）：本地无仓库，要获取一个完整的远程库
 
-- git clone clone https://github.com/xxx.git  (HTTPS)
+- git clone  https://github.com/xxx.git  (HTTPS)
 
 - > 只有在第一次获取远程库时才需要克隆
 
