@@ -188,3 +188,6 @@ repository：https://DESKTOP-9RHGTMC:8443/svn/01_demo/
 
 - > 只有在第一次获取远程库时才需要克隆
 
+## git 克隆远程仓库
+
+https://blog.csdn.net/weixin_41287260/article/details/98987135
