@@ -99,6 +99,16 @@ repository：https://DESKTOP-9RHGTMC:8443/svn/01_demo/
 
 
 
+
+
+* `git push origin localBranchName:remoteBranchName `本地分支推送到远程指定分支，如果远程没有这个分支则自动创建
+* `git clone -b 分支名 仓库地址`clone远程仓库指定分支，本地分支名就是远程分支名
+* `git clone 仓库地址`就已经把远程所有分支都克隆了，但是本地无法查看，`git branch -a`可以看到所有分支。`git checkout -b branchName origin/branchName`这样在本地新建分支，并与远程对应分支进行关联。
+* `git branch -m oldName  newName`给分支改名
+* `git push --delete origin oldName`删除远程分支
+
+
+
 ## Attention
 
 - 使用图形界面在git仓库内删除一个文件后，这个删除动作还没有同步到暂存区和版本区，需要add 和 commit来讲工作区的动作同步到暂存区和版本区。
@@ -191,3 +201,9 @@ repository：https://DESKTOP-9RHGTMC:8443/svn/01_demo/
 ## git 克隆远程仓库
 
 https://blog.csdn.net/weixin_41287260/article/details/98987135
+
+
+
+# git使用场景
+
+## 
